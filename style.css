@@ -1,0 +1,42 @@
+.box {
+  width: 1920px;
+  height: 1080px;
+}
+
+.box .group {
+  position: fixed;
+  width: 1922px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-image: url(./img/rectangle-29.svg);
+  background-size: 100% 100%;
+}
+
+.box .image {
+  position: absolute;
+  width: 1920px;
+  height: 921px;
+  top: 87px;
+  left: 0;
+  object-fit: cover;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 178px;
+  top: 173px;
+  left: 782px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
